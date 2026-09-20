@@ -1,0 +1,5 @@
+install python 3.7 and then install all packages from requirements.txt file and then install NLTK by following below steps
+
+install nltk software by clicking on 'download_nltk.bat' and in window click on Download button to 
+install all nltk packages and after downloading all packages window colour chnage to green and then
+close window and install below package and then run code

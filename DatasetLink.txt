@@ -1,0 +1,1 @@
+https://github.com/lauramanor/legal_summarization/blob/master/tldrlegal_v1.json

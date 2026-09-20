@@ -1,0 +1,336 @@
+/* ==========================================================================
+   Executive Professional Theme: Deep Royal Navy & Slate with White Card
+   Typography: Plus Jakarta Sans / Inter (Clean Modern Sans-Serif)
+   Layout: Exact Classic 980px Wrapper & 870px Aligned Content Frame
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 11pt;
+	color: #334155;
+	line-height: 1.7;
+	background: #f1f5f9;
+	font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*, body, input, textarea, button, select, p, font, table, th, td, a, h1, h2, h3, h4, h5, h6, span, div {
+	font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+a {
+	text-decoration: none;
+	color: #2563eb;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #1d4ed8;
+}
+
+strong {
+	color: #0f172a;
+	font-weight: 600;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+	color: #0f172a;
+	margin-bottom: 0.75em;
+	letter-spacing: -0.01em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.35em;
+	color: #1e3a8a;
+}
+
+h4 {
+	font-size: 1.15em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 0;
+	border: 1px solid #cbd5e1;
+	background: #0f172a;
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+	box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+p {
+	margin-bottom: 1.2em;
+	color: #334155;
+}
+
+ul {
+	margin-bottom: 1.2em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+/* ---------------- Main Wrapper (980px Classic Card) ---------------- */
+#wrapper {
+	width: 980px;
+	margin: 35px auto 55px auto;
+	background: #ffffff;
+	border: 1px solid #cbd5e1;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+	overflow: hidden;
+}
+
+/* ---------------- Header (Deep Royal Navy & Sapphire Gradient) ---------------- */
+#header {
+	height: 110px;
+	position: relative;
+	background: linear-gradient(135deg, #1e3a8a 0%, #1e293b 55%, #0f172a 100%);
+	padding: 24px 35px;
+	color: #ffffff;
+	width: 100%;
+	border-bottom: 2px solid #2563eb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#logo font,
+#logo h1,
+.header-title {
+	color: #ffffff !important;
+	font-weight: 700 !important;
+	letter-spacing: -0.01em;
+	font-size: 1.25em !important;
+	line-height: 1.4;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+#slogan {
+	display: none;
+}
+
+/* ---------------- Menu (Dark Slate Navy Bar) ---------------- */
+#menu {
+	padding: 0;
+	background: #0f172a;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #e2e8f0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#menu ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	padding: 0 16px;
+	display: inline-block;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #cbd5e1;
+	font-size: 0.95em;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	transition: all 0.2s ease;
+	padding: 6px 14px;
+	border-radius: 4px;
+}
+
+#menu a:hover {
+	color: #ffffff;
+	background: rgba(37, 99, 235, 0.4);
+	text-shadow: 0 0 8px rgba(147, 197, 253, 0.6);
+}
+
+/* ---------------- Splash Banner (Exact 870px Alignment) ---------------- */
+#splash {
+	margin: 0;
+	padding: 24px 0 16px 0;
+	text-align: center;
+	width: 100%;
+}
+
+#splash .pic {
+	width: 870px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 6px;
+	border: 1px solid #cbd5e1;
+	background: #0f172a;
+	box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+}
+
+/* ---------------- Centered Text & Headings ---------------- */
+p[align="justify"] {
+	width: 870px;
+	margin: 14px auto 18px auto;
+	line-height: 1.7;
+	color: #1e293b;
+}
+
+p[align="justify"] center {
+	font-weight: 600;
+	font-size: 1.12em;
+	color: #0f172a;
+	letter-spacing: -0.01em;
+}
+
+/* ---------------- Form Elements ---------------- */
+input[type="text"],
+input[type="password"] {
+	background: #ffffff;
+	color: #0f172a;
+	border: 1.5px solid #cbd5e1;
+	padding: 8px 12px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 0.95em;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea {
+	background: #ffffff;
+	color: #0f172a;
+	border: 1.5px solid #cbd5e1;
+	padding: 12px;
+	border-radius: 5px;
+	outline: none;
+	line-height: 1.6;
+	font-size: 0.95em;
+	resize: vertical;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	border-color: #2563eb;
+	box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+input[type="submit"] {
+	background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+	color: #ffffff;
+	border: none;
+	padding: 9px 26px;
+	font-weight: 600;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 0.95em;
+	letter-spacing: 0.01em;
+	box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+	transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover {
+	background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+	box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+	transform: translateY(-1px);
+}
+
+/* ---------------- Tables (870px Aligned) ---------------- */
+table {
+	background: #ffffff;
+	border: 1px solid #cbd5e1;
+	border-collapse: collapse;
+	color: #1e293b;
+	width: 870px;
+	max-width: 870px;
+	margin: 12px auto;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+th {
+	background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+	color: #ffffff;
+	border: 1px solid #1e3a8a;
+	padding: 10px 14px;
+	font-weight: 600;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+td {
+	border: 1px solid #e2e8f0;
+	padding: 9px 14px;
+	color: #334155;
+	font-size: 0.92em;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background: #f8fafc;
+}
+
+tr:hover {
+	background: #f1f5f9;
+}
+
+/* ---------------- Overrides for Legacy Inline Font Tags ---------------- */
+font[color="black" i] {
+	color: #1e293b !important;
+}
+
+font[color="yellow" i] {
+	color: #ffffff !important;
+}
+
+/* ---------------- Performance Chart Sizing & Alignment ---------------- */
+center > img[src^="data:image"] {
+	width: 870px;
+	max-width: 870px;
+	height: auto;
+	display: block;
+	margin: 14px auto 25px auto;
+	border: 1px solid #cbd5e1;
+	border-radius: 6px;
+	box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}

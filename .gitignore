@@ -1,0 +1,4 @@
+t5-small-offline/
+__pycache__/
+*.pyc
+.env
